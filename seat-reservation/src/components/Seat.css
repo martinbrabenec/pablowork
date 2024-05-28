@@ -1,0 +1,34 @@
+.train-seat {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    transition: transform 0.2s, fill 0.2s;
+}
+
+.train-seat:hover {
+    transform: scale(1.1);
+}
+
+.train-seat__seat {
+    stroke: black;
+    stroke-width: 2;
+}
+
+.train-seat__seat--occupied {
+    fill: #8B0000;
+}
+
+.train-seat__seat--free {
+    fill: #90EE90;
+}
+
+.train-seat__seat--selected {
+    fill: #FFA500;
+}
+
+.train-seat__number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    fill: white;
+}
